@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Merriweather:ital,wght@0,300;0,400;1,300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+.mainsection{
+    /* display: flex; */
+    background-image: url("./assets/clothing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    width: 100%;
+    font-family: 'Marck Script';
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+
+}
+.btn{
+    color: antiquewhite !important;
+    font-size: 1.5rem !important;
+}
+
+.login{
+    background-color: rgb(12, 151, 190);
+    padding: 8px;
+    padding-left:16px;
+    padding-right: 16px;
+    border-radius: 8px;
+    ;
+}
+
+
+.flex-upload{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.flex-upload input{
+    margin-top: 10px;
+    padding:8px;
+    width: 500px;
+    border-radius: 50px;
+    padding-left: 10px;
+}
+.form-file{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.form-file input{
+    /* border-radius:50px; */
+    border-top-left-radius:50px ;
+    padding: 10px;
+    border-bottom-left-radius:50px ;
+    border:none;
+    background-color: azure;
+    width: 280px;
+
+}
+.form-file button{
+    border-top-right-radius:50px ;
+    border-bottom-right-radius:50px ;
+    background-color: blueviolet;
+    color:white;
+    padding-right: 32px;
+    border: none;
+
+
+}
+.get-my-dress{
+    display: block;
+    margin: auto;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    border-radius: 50px;
+    background-color: rgb(149, 82, 211);
+    color: aliceblue;
+    padding: 10px;
+    padding-left:32px;
+    padding-right: 32px;
+    border:0px;
+}
+.flex-upload button{
+    padding: 68px;
+    margin-bottom: 20px;
+    padding-top: 8px;
+    padding-bottom:8px;
+    border-radius: 50px;
+    margin-top: 10px;
+    background-color: blueviolet;
+    color:aliceblue
+}
+.mainimage img{
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+
+}
+.middlesectio{
+    height:30rem;
+    /* font-family: 'Marck Script'  ; */
+    text-align: center;
+    background-image: url("./assets/black.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.middlecontent{
+    padding: 5rem;
+    color: white;
+}
+.maintext{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position :absolute;
+}
+
+.aboutus{
+    padding-top: 5rem;
+}
+
+.lastpage{
+    margin-top: 7rem;
+}
+
+.logoutbtn{
+    margin: auto;
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 25px;
+    font-family: 'Marck Script';
+}
